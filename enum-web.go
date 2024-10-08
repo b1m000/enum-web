@@ -43,10 +43,8 @@ func fuff(url string){
 		"wordlist/Web-Content/common.txt",
 		"wordlist/Web-Content/common-and-portuguese.txt",
 		"wordlist/Web-Content/quickhits.txt",
-		"wordlist/Web-Content/directory-list-2.3-medium.txt"
-		"wordlist/Web-Content/directory-list-2.3-big.txt"
-
-	}
+		"wordlist/Web-Content/directory-list-2.3-medium.txt",
+		"wordlist/Web-Content/directory-list-2.3-big.txt",}
 
 	for _, wordlist := range wordlists {
 		fmt.Printf("Running ffuf with wordlist: %s\n", wordlist)
@@ -90,16 +88,15 @@ func runF(url string, tipe string){
 func logo(){
 
 	var d string = `
-† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​†​ ​† ​† ​† ​†  †
-†​'########:::::'##:::'##::::'##:::'#####:::  †​
-† ##.... ##::'####::: ###::'###::'##.. ##::  †
-† ##:::: ##::.. ##::: ####'####:'##:::: ##:  †
-† ########::::: ##::: ## ### ##: ##:::: ##:  †
-† ##.... ##:::: ##::: ##. #: ##: ##:::: ##:  †
-† ##:::: ##:::: ##::: ##:.:: ##:. ##:: ##::  †
-† ########:::'######: ##:::: ##::. #####:::  †
-†........::::......::..:::::..::::.....::::  †
-† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​† ​†† † ​​† ​† ​† ​† ​† ​† ​†
+†'########:::::'##:::'##::::'##:::'#####::: †​
+† ##.... ##::'####::: ###::'###::'##.. ##:: †
+† ##:::: ##::.. ##::: ####'####:'##:::: ##: †
+† ########::::: ##::: ## ### ##: ##:::: ##: †
+† ##.... ##:::: ##::: ##. #: ##: ##:::: ##: †
+† ##:::: ##:::: ##::: ##:.:: ##:. ##:: ##:: †
+† ########:::'######: ##:::: ##::. #####::: †
+†........::::......::..:::::..::::.....:::: †
+
 `
 	fmt.Print(GREEN)
 	fmt.Println(d)
