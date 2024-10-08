@@ -20,7 +20,7 @@ go build enum-web.go
 ./enum-web --help
 ```
 
-## RUN:
+## HELP:
 ```
 go run enum-web.go --help
 ```
