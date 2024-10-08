@@ -12,12 +12,16 @@ sudo apt install ffuf -y
 sduo apt install go -y
 ```
 
-## RUN:
-```
-go run enum-web.go
-```
-
 ## BUILD
 ```
 go build enum-web.go
+./enum-web --help
 ```
+
+## RUN:
+```
+go run enum-web.go --help
+```
+
+
+
