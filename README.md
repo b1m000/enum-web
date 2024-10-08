@@ -1,5 +1,5 @@
 # enum-web
-This tool help you to find inforamtion such as: path, information with google dorcking and wayback machine.
+This tool help you to find information such as path, information using google dorcking and wayback machine.
 
 ![Image execute program](/img/start.png)
 ## INSTALLATION
