@@ -1,7 +1,20 @@
 # enum-web
 This tool help you to find information such as path, information using google dorcking and wayback machine.
+```
+ go run enum-web.go --help                                                                  ─╯
 
-![Image execute program](/img/start.png)
+†'########:::::'##:::'##::::'##:::'#####::: †
+† ##.... ##::'####::: ###::'###::'##.. ##:: †
+† ##:::: ##::.. ##::: ####'####:'##:::: ##: †
+† ########::::: ##::: ## ### ##: ##:::: ##: †
+† ##.... ##:::: ##::: ##. #: ##: ##:::: ##: †
+† ##:::: ##:::: ##::: ##:.:: ##:. ##:: ##:: †
+† ########:::'######: ##:::: ##::. #####::: †
+†........::::......::..:::::..::::.....:::: †
+
+
+usage: api-scan <url>
+```
 ## INSTALLATION
 > MACOS
 ```
