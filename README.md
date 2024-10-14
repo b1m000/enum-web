@@ -1,7 +1,7 @@
 # enum-web
 This tool help you to find information such as path, information using google dorcking and wayback machine.
 ```
- go run enum-web.go --help                                                                  ─╯
+ go run enum-web.go --help                                              
 
 †'########:::::'##:::'##::::'##:::'#####::: †
 † ##.... ##::'####::: ###::'###::'##.. ##:: †
@@ -11,7 +11,6 @@ This tool help you to find information such as path, information using google do
 † ##:::: ##:::: ##::: ##:.:: ##:. ##:: ##:: †
 † ########:::'######: ##:::: ##::. #####::: †
 †........::::......::..:::::..::::.....:::: †
-
 
 usage: api-scan <url>
 ```
